@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="28%" r="60%">
+      <stop offset="0%" stop-color="#0C2740"/>
+      <stop offset="100%" stop-color="#010D17"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(96, 150)">
+    <rect width="64" height="64" rx="12" fill="#6BB3DE"/>
+    <text x="32" y="46" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#010D17" text-anchor="middle">R</text>
+    <text x="84" y="46" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#EAF2F8">Res<tspan fill="#6BB3DE">Command</tspan></text>
+  </g>
+  <text x="96" y="330" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#EAF2F8">Restaurant operations,</text>
+  <text x="96" y="402" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#6BB3DE">handled.</text>
+  <text x="96" y="470" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#8DA4B8">Scheduling · Inventory · Recipes · Compliance — in one app.</text>
+  <text x="96" y="556" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#8DA4B8">rescommand.com</text>
+</svg>
