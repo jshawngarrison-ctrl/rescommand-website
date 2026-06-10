@@ -12,7 +12,7 @@ import { PRICING_TIERS, PRICING_FAQ } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Pricing',
   description:
-    'Pricing that grows with you. No setup fees, no contracts, cancel anytime. Starter at $199/mo, Pro at $499/mo. Try ResCommand free for 14 days.',
+    'Pricing that grows with you. No setup fees, no contracts, cancel anytime. Core at $99/mo, Operator at $199/mo. Try ResCommand free for 14 days.',
   alternates: { canonical: '/pricing' },
 }
 

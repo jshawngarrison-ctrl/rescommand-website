@@ -168,37 +168,37 @@ export interface PricingFeatureRow {
 
 export const PRICING_TIERS: PricingTier[] = [
   {
-    name: 'Starter',
-    price: '$199',
+    name: 'Core',
+    price: '$99',
     cadence: '/mo',
     blurb: 'Everything one location needs to run like a big operation.',
     cta: 'Start Free Trial',
     highlights: [
       '1 location',
-      'Up to 10 team members',
+      'Up to 15 team members',
       'Scheduling, inventory, recipes & compliance',
       'Email support',
     ],
   },
   {
-    name: 'Pro',
-    price: '$499',
+    name: 'Operator',
+    price: '$199',
     cadence: '/mo',
     blurb: 'Built for growing, multi-unit operators who need more.',
     cta: 'Start Free Trial',
     featured: true,
     highlights: [
-      'Up to 5 locations',
-      'Unlimited team members',
-      'Everything in Starter',
+      'Up to 3 locations',
+      'Up to 45 team members',
+      'Everything in Core',
       'API access & priority support',
     ],
   },
 ]
 
 export const PRICING_COMPARISON: PricingFeatureRow[] = [
-  { label: 'Locations', starter: '1', pro: 'Up to 5' },
-  { label: 'Team Members', starter: 'Up to 10', pro: 'Unlimited' },
+  { label: 'Locations', starter: '1', pro: 'Up to 3' },
+  { label: 'Team Members', starter: 'Up to 15', pro: 'Up to 45' },
   { label: 'Scheduling', starter: true, pro: true },
   { label: 'Inventory & Par', starter: true, pro: true },
   { label: 'Recipes & Prep', starter: true, pro: true },
@@ -228,13 +228,13 @@ export const PRICING_FAQ = [
     answer: 'Never. No setup fees, no onboarding fees, no contracts. You can cancel anytime.',
   },
   {
-    question: 'What if I need more than 5 locations?',
+    question: 'What if I need more than 3 locations?',
     answer:
       'We’ve got you. Contact us and we’ll put together a multi-unit plan sized to your group.',
   },
   {
     question: 'Do you have an API?',
     answer:
-      'Yes — API access is included on the Pro plan so you can connect ResCommand to the rest of your stack.',
+      'Yes — API access is included on the Operator plan so you can connect ResCommand to the rest of your stack.',
   },
 ]

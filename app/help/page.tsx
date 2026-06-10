@@ -50,7 +50,7 @@ const HELP: HelpGroup[] = [
       {
         question: 'What’s included in each plan?',
         answer:
-          'Starter covers one location and up to 10 team members. Pro covers up to 5 locations, unlimited team members, API access, and priority support. Both include scheduling, inventory, recipes, and compliance.',
+          'Core covers one location and up to 15 team members. Operator covers up to 3 locations, up to 45 team members, API access, and priority support. Both include scheduling, inventory, recipes, and compliance.',
       },
       {
         question: 'Can I change plans anytime?',
@@ -113,7 +113,7 @@ const HELP: HelpGroup[] = [
       },
       {
         question: 'Is there an API?',
-        answer: 'Yes — API access is included on the Pro plan so you can connect ResCommand to your stack.',
+        answer: 'Yes — API access is included on the Operator plan so you can connect ResCommand to your stack.',
       },
       {
         question: 'Can I export my data?',
@@ -126,12 +126,12 @@ const HELP: HelpGroup[] = [
     items: [
       {
         question: 'How do I contact support?',
-        answer: `Email us at ${SITE.supportEmail} and we’ll get back to you quickly. Pro plans include priority support.`,
+        answer: `Email us at ${SITE.supportEmail} and we’ll get back to you quickly. Operator plans include priority support.`,
       },
       {
         question: 'What’s your response time?',
         answer:
-          'We aim to respond within one business day — faster for Pro customers and anything time-sensitive on the floor.',
+          'We aim to respond within one business day — faster for Operator customers and anything time-sensitive on the floor.',
       },
       {
         question: 'Do you offer training?',

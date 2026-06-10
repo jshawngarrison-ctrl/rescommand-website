@@ -41,15 +41,15 @@ export function SoftwareApplicationJsonLd() {
     offers: [
       {
         '@type': 'Offer',
-        name: 'Starter',
-        price: '199',
+        name: 'Core',
+        price: '99',
         priceCurrency: 'USD',
         category: 'monthly subscription',
       },
       {
         '@type': 'Offer',
-        name: 'Pro',
-        price: '499',
+        name: 'Operator',
+        price: '199',
         priceCurrency: 'USD',
         category: 'monthly subscription',
       },

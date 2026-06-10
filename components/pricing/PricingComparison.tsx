@@ -12,22 +12,22 @@ function Cell({ value }: { value: string | boolean }) {
   return <span className="text-body-md text-ink">{value}</span>
 }
 
-/** Feature comparison table: Starter vs. Pro. */
+/** Feature comparison table: Core vs. Operator. */
 export function PricingComparison() {
   return (
     <div className="overflow-hidden rounded-xl border border-muted/10 bg-primary-panel">
       <table className="w-full border-collapse text-center">
-        <caption className="sr-only">Feature comparison between Starter and Pro plans</caption>
+        <caption className="sr-only">Feature comparison between Core and Operator plans</caption>
         <thead>
           <tr className="border-b border-muted/15">
             <th scope="col" className="px-6 py-5 text-left font-display text-body-md text-muted">
               Feature
             </th>
             <th scope="col" className="px-6 py-5 font-display text-body-lg font-bold text-ink">
-              Starter
+              Core
             </th>
             <th scope="col" className="px-6 py-5 font-display text-body-lg font-bold text-accent-sky">
-              Pro
+              Operator
             </th>
           </tr>
         </thead>
@@ -49,8 +49,8 @@ export function PricingComparison() {
             <th scope="row" className="px-6 py-5 text-left font-display text-body-lg font-bold text-ink">
               Price
             </th>
-            <td className="px-6 py-5 font-display text-body-lg font-bold text-ink">$199/mo</td>
-            <td className="px-6 py-5 font-display text-body-lg font-bold text-accent-sky">$499/mo</td>
+            <td className="px-6 py-5 font-display text-body-lg font-bold text-ink">$99/mo</td>
+            <td className="px-6 py-5 font-display text-body-lg font-bold text-accent-sky">$199/mo</td>
           </tr>
         </tbody>
       </table>
