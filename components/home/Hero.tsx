@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { ArrowRight, Play } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { Button } from '@/components/ui/Button'
@@ -14,6 +15,14 @@ export function Hero() {
       />
       <Container className="relative grid items-center gap-12 py-20 lg:grid-cols-2 lg:py-28">
         <div className="flex flex-col items-start gap-6">
+          <Image
+            src="/brand/rescommand-icon-dark.svg"
+            alt="ResCommand Ops Scope mark"
+            width={128}
+            height={128}
+            priority
+            className="h-24 w-24 animate-fade-in sm:h-32 sm:w-32"
+          />
           <span className="inline-flex items-center gap-2 rounded-full border border-accent-sky/30 bg-primary-panel px-4 py-1.5 text-body-sm font-medium text-accent-sky">
             Built for small restaurants
           </span>

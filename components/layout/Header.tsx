@@ -21,9 +21,9 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-[300] border-b border-muted/10 bg-primary-navy/90 backdrop-blur supports-[backdrop-filter]:bg-primary-navy/75">
-      <nav className="container-safe flex h-16 items-center justify-between gap-4" aria-label="Primary">
+      <nav className="container-safe flex h-20 items-center justify-between gap-4" aria-label="Primary">
         <Link href="/" className="flex items-center" aria-label="ResCommand home">
-          <Logo />
+          <Logo height={48} />
         </Link>
 
         {/* Desktop nav */}

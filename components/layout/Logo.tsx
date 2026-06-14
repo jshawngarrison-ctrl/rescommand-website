@@ -11,7 +11,7 @@ interface LogoProps {
 const RATIO = 1833 / 440
 
 /** ResCommand primary lockup (cream wordmark + Ops Scope mark) for dark grounds. */
-export function Logo({ className, height = 34 }: LogoProps) {
+export function Logo({ className, height = 40 }: LogoProps) {
   const width = Math.round(height * RATIO)
   return (
     <Image
