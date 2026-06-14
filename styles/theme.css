@@ -3,18 +3,20 @@
 /* Dark theme, Scramblers-inspired aesthetic */
 
 :root {
-  /* Colors - Primary */
-  --color-navy-primary: #010d17;
-  --color-navy-panel: #071a2c;
-  --color-navy-deep: #0c2740;
+  /* Colors - Primary (brand "Navy" + derived panels) */
+  --color-navy-primary: #0c1d17;
+  --color-navy-panel: #13271e;
+  --color-navy-deep: #1b3a2d;
 
   /* Colors - Accent */
   --color-sky-accent: #6bb3de;
   --color-sky-bright: #9ad0f0;
+  --color-gold: #c9a05b;
 
   /* Colors - Text */
-  --color-text-ink: #eaf2f8;
+  --color-text-ink: #eaf2f8; /* brand "Cream" */
   --color-text-muted: #8da4b8;
+  --color-coal: #141414; /* brand "Ink" */
 
   /* Colors - Semantic */
   --color-success: #2d8659;
@@ -22,8 +24,8 @@
   --color-error: #dc2626;
 
   /* Typography — resolve to the next/font loaded families */
-  --font-display: var(--font-fraunces), Georgia, serif;
-  --font-body: var(--font-hanken-grotesk), system-ui, sans-serif;
+  --font-display: var(--font-young-serif), Georgia, serif;
+  --font-body: var(--font-instrument-sans), system-ui, sans-serif;
 
   /* Font Sizes */
   --size-display-lg: 64px;

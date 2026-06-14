@@ -1,10 +1,11 @@
 import type { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 
-type Tone = 'sky' | 'success' | 'warning' | 'error' | 'muted'
+type Tone = 'sky' | 'gold' | 'success' | 'warning' | 'error' | 'muted'
 
 const tones: Record<Tone, string> = {
   sky: 'bg-accent-sky text-primary-navy',
+  gold: 'bg-accent-gold text-primary-navy',
   success: 'bg-semantic-success text-white',
   warning: 'bg-semantic-warning text-white',
   error: 'bg-semantic-error text-white',

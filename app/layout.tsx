@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Fraunces, Hanken_Grotesk } from 'next/font/google'
+import { Young_Serif, Instrument_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import { SITE } from '@/lib/constants'
 import { Header } from '@/components/layout/Header'
@@ -8,17 +8,18 @@ import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics'
 import { OrganizationJsonLd, SoftwareApplicationJsonLd } from '@/components/seo/JsonLd'
 import '@/styles/globals.css'
 
-const fraunces = Fraunces({
+// Young Serif ships a single weight (400); its natural weight is the display look.
+const youngSerif = Young_Serif({
   subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  variable: '--font-fraunces',
+  weight: ['400'],
+  variable: '--font-young-serif',
   display: 'swap',
 })
 
-const hankenGrotesk = Hanken_Grotesk({
+const instrumentSans = Instrument_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-hanken-grotesk',
+  variable: '--font-instrument-sans',
   display: 'swap',
 })
 
@@ -66,7 +67,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${hankenGrotesk.variable}`}>
+    <html lang="en" className={`${youngSerif.variable} ${instrumentSans.variable}`}>
       <body className="min-h-screen bg-primary-navy font-body text-ink antialiased">
         <a
           href="#main"

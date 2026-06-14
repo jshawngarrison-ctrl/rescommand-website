@@ -14,17 +14,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ResCommand Color Palette (from Scramblers)
+        // ResCommand Brand Palette (Venturio Studios brand kit)
         primary: {
-          navy: '#010D17', // Darkest backgrounds, page base
-          panel: '#071A2C', // Card backgrounds, primary panels
-          deep: '#0C2740', // Alternate sections, depth layers
+          navy: '#0C1D17', // Darkest backgrounds, page base (brand "Navy")
+          panel: '#13271E', // Card backgrounds, primary panels
+          deep: '#1B3A2D', // Alternate sections, depth layers
         },
         accent: {
-          sky: '#6BB3DE', // CTAs, highlights, primary interactive
+          sky: '#6BB3DE', // CTAs, highlights, primary interactive (brand "Sky")
           bright: '#9AD0F0', // Hover states, secondary accents
+          gold: '#C9A05B', // Brand "Gold" — highlight accent (use sparingly)
         },
-        ink: '#EAF2F8', // Primary text, high contrast
+        ink: '#EAF2F8', // Primary text on dark (brand "Cream")
+        cream: '#EAF2F8', // Alias for brand "Cream"
+        coal: '#141414', // Brand "Ink" — near-black, for light-ground marks
         muted: '#8DA4B8', // Secondary text, labels, metadata
         semantic: {
           success: '#2D8659', // Confirmation, positive states
@@ -33,13 +36,13 @@ const config: Config = {
         },
       },
       fontFamily: {
-        // Display: Fraunces (serif, headlines)
-        display: ['var(--font-fraunces)', ...defaultTheme.fontFamily.serif],
-        // Body: Hanken Grotesk (sans-serif)
-        body: ['var(--font-hanken-grotesk)', ...defaultTheme.fontFamily.sans],
+        // Display: Young Serif (wordmark & display) — single weight
+        display: ['var(--font-young-serif)', ...defaultTheme.fontFamily.serif],
+        // Body: Instrument Sans (UI & body copy)
+        body: ['var(--font-instrument-sans)', ...defaultTheme.fontFamily.sans],
         // Defaults
-        serif: ['var(--font-fraunces)', ...defaultTheme.fontFamily.serif],
-        sans: ['var(--font-hanken-grotesk)', ...defaultTheme.fontFamily.sans],
+        serif: ['var(--font-young-serif)', ...defaultTheme.fontFamily.serif],
+        sans: ['var(--font-instrument-sans)', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         // Display sizes

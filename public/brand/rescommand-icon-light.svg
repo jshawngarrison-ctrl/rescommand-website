@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><path d="M 300 136 C 384 136, 450 202, 450 286 C 450 370, 384 436, 300 436 C 216 436, 150 370, 150 286 C 150 202, 216 136, 300 136 Z" fill="#6BB3DE"/><path d="M 300 286 L 356 156 C 398 172, 428 206, 440 250 Z" fill="#C9A05B"/>
+<path d="M 300 136 C 384 136, 450 202, 450 286 C 450 370, 384 436, 300 436 C 216 436, 150 370, 150 286 C 150 202, 216 136, 300 136 Z" fill="none" stroke="#141414" stroke-width="16" stroke-linejoin="round"/>
+<path d="M 300 198 C 350 198, 388 236, 388 286 C 388 336, 350 374, 300 374 C 250 374, 212 336, 212 286 C 212 236, 250 198, 300 198 Z" fill="none" stroke="#141414" stroke-width="6" opacity="0.9"/>
+<path d="M 152 286 L 448 286" stroke="#141414" stroke-width="5" opacity="0.7"/>
+<path d="M 300 138 L 300 434" stroke="#141414" stroke-width="5" opacity="0.7"/>
+<path d="M 300 286 L 356 156" stroke="#141414" stroke-width="7" stroke-linecap="round"/>
+<circle cx="300" cy="286" r="10" fill="#141414"/>
+<circle cx="362" cy="232" r="13" fill="#C9A05B" stroke="#141414" stroke-width="7"/>
+<circle cx="244" cy="342" r="11" fill="#C9A05B" stroke="#141414" stroke-width="7"/></svg>

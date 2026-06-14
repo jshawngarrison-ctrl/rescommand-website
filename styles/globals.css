@@ -11,6 +11,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Young Serif ships a single weight — prevent faux-bold synthesis on
+       display headings that carry bold utility classes. */
+    font-synthesis-weight: none;
   }
 
   body {

@@ -1,23 +1,27 @@
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 interface LogoProps {
   className?: string
+  /** Rendered height in px; width scales to the lockup's aspect ratio. */
+  height?: number
 }
 
-/** Wordmark logo: "Res" in ink, "Command" in sky blue, with a command glyph. */
-export function Logo({ className }: LogoProps) {
+// Primary horizontal lockup, viewBox 1833 x 440 (ratio ≈ 4.166).
+const RATIO = 1833 / 440
+
+/** ResCommand primary lockup (cream wordmark + Ops Scope mark) for dark grounds. */
+export function Logo({ className, height = 34 }: LogoProps) {
+  const width = Math.round(height * RATIO)
   return (
-    <span className={cn('flex items-center gap-2', className)}>
-      <span
-        aria-hidden="true"
-        className="flex h-8 w-8 items-center justify-center rounded-md bg-accent-sky font-display text-body-lg font-bold text-primary-navy"
-      >
-        R
-      </span>
-      <span className="font-display text-xl font-bold tracking-tight">
-        <span className="text-ink">Res</span>
-        <span className="text-accent-sky">Command</span>
-      </span>
-    </span>
+    <Image
+      src="/brand/rescommand-primary-dark.svg"
+      alt="ResCommand"
+      width={width}
+      height={height}
+      priority
+      className={cn('h-auto w-auto', className)}
+      style={{ height, width }}
+    />
   )
 }

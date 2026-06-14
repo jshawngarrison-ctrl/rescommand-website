@@ -20,7 +20,7 @@ export function PricingCard({ tier, ctaHref = '/demo' }: PricingCardProps) {
     >
       {tier.featured && (
         <div className="absolute -top-3 left-8">
-          <Badge>Most popular</Badge>
+          <Badge tone="gold">Most popular</Badge>
         </div>
       )}
 
